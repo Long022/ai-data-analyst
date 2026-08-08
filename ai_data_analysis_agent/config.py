@@ -1,0 +1,15 @@
+"""集中配置"""
+
+# 文件上传限制
+MAX_FILE_SIZE_MB = 50
+MAX_ROWS = 100_000
+
+# DeepSeek LLM 默认值
+DEFAULT_MODEL = "deepseek-v4-pro"
+DEFAULT_BASE_URL = "https://api.deepseek.com/v1"
+DEFAULT_TEMPERATURE = 0.1
+DEFAULT_TIMEOUT = 60
+DEFAULT_MAX_RETRIES = 2
+
+# Python REPL 限制
+MAX_PYTHON_OUTPUT_LENGTH = 5000
